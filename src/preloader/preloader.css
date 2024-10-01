@@ -1,0 +1,35 @@
+.preload {
+    opacity: 0;
+    transition: opacity .7s ease;
+}
+
+.loaded .preload {
+    opacity: 1;
+}
+
+.loaded .loading {
+    opacity: 0;
+    transition: opacity .2s cubic-bezier(0.075, 1, 0.25, 1);
+}
+.loading {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97dvw;
+    height: 100dvh;
+    position: absolute;
+    bottom: 5%;
+    z-index: -1;
+}
+:root {
+    --gap: 1em;
+    --index: calc(1vw + 1vh);
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+}

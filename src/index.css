@@ -1,0 +1,15 @@
+body {
+  scroll-behavior: smooth;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: #E5E5E5;
+  color: #555555;
+  transition: background-color .7s ease;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
